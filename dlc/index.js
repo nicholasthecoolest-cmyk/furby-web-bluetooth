@@ -1,9 +1,9 @@
 [
     { 
-        "file": "context.dlc", 
-        "title": "Context Logo",
+        "file": "ruby_eyes.dlc", 
+        "title": "Ruby",
         "buttons": [
-            { "title": "Logo", "action": [75,0,4,4] }
+            { "title": "Logo", "action": [75,0,0,0] }
         ]
     },
     { 
