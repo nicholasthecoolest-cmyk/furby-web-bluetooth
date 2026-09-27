@@ -29,8 +29,8 @@
         ]
     },
     { 
-        "file": "badapple.dlc", 
-        "title": "Bad appel",
+        "file": "ruby.dlc", 
+        "title": "Ruby",
         "buttons": [
             { "title": "Bad Apple (Video)", "action": [75,0,4,4] }
         ]
