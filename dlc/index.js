@@ -27,5 +27,12 @@
         "buttons": [
             { "title": "Chilli ", "action": [75,0,4,4] }
         ]
+    },
+    { 
+        "file": "ba_final.dlc", 
+        "title": "Freakzingas G-Major 50",
+        "buttons": [
+            { "title": "Bad Apple (Video)", "action": [75,0,4,4] }
+        ]
     }
 ]
