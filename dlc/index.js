@@ -1,6 +1,6 @@
 [
     { 
-        "file": "ruby_eyes_furby.dlc", 
+        "file": "ruby.dlc", 
         "title": "Ruby",
         "buttons": [
             { "title": "Logo", "action": [75,0,0,0] }
