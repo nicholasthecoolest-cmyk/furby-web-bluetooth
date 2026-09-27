@@ -1,6 +1,6 @@
 [
     { 
-        "file": "test1.dlc", 
+        "file": "a.dlc", 
         "title": "Bad Apple V3",
         "buttons": [
             { "title": "Bad Apple", "action": [75,0,4,4] }
