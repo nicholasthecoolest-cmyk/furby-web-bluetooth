@@ -1,7 +1,7 @@
 [
     { 
         "file": "badaple.dlc", 
-        "title": "Ruby",
+        "title": "Bad Apple",
         "buttons": [
             { "title": "Bad Apple (Video)", "action": [75,0,4,4] }
         ]
