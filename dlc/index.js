@@ -3,7 +3,7 @@
         "file": "badaple.dlc", 
         "title": "Ruby",
         "buttons": [
-            { "title": "Logo", "action": [75,0,0,0] }
+            { "title": "Bad Apple (Video)", "action": [75,0,4,4] }
         ]
     },
     { 
