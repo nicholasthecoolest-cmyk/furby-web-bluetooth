@@ -14,6 +14,13 @@
             { "title": "Hacked 2", "action": [75,0,4,4] }
         ]
     },
+    { 
+        "file": "p-o-r.dlc", 
+        "title": "Pepp-Oh-Roni",
+        "buttons": [
+            { "title": "Pepp-Oh-Roni", "action": [75,0,4,4] }
+        ]
+    },
     {
         "file": "noimg2.dlc", 
         "title": "Audio only",
