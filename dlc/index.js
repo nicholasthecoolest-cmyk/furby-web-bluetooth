@@ -1,9 +1,9 @@
 [
     { 
         "file": "badapple.dlc", 
-        "title": "Bad Apple V2",
+        "title": "Bad Apple",
         "buttons": [
-            { "title": "Bad Apple (Video)", "action": [75,0,4,4] }
+            { "title": "Bad Apple", "action": [75,0,4,4] }
         ]
     },
     { 
