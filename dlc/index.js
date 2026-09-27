@@ -29,8 +29,8 @@
         ]
     },
     { 
-        "file": "ba_final.dlc", 
-        "title": "Freakzingas G-Major 50",
+        "file": "badapple.dlc", 
+        "title": "Bad appel",
         "buttons": [
             { "title": "Bad Apple (Video)", "action": [75,0,4,4] }
         ]
