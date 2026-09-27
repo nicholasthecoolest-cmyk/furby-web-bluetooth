@@ -1,6 +1,6 @@
 [
     { 
-        "file": "ruby.dlc", 
+        "file": "badaple.dlc", 
         "title": "Ruby",
         "buttons": [
             { "title": "Logo", "action": [75,0,0,0] }
