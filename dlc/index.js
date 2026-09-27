@@ -30,7 +30,7 @@
     },
     {
         "file": "midi.dlc", 
-        "title": "Midi Personality",
+        "title": "Midi Personality fix",
         "buttons": [
             { "title": "Midi Introducion", "action": [75,0,4,4] }
         ]
