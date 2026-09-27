@@ -28,6 +28,13 @@
             { "title": "Chilli ", "action": [75,0,4,4] }
         ]
     },
+    {
+        "file": "midi.dlc", 
+        "title": "Midi Personality",
+        "buttons": [
+            { "title": "Midi Introducion", "action": [75,0,4,4] }
+        ]
+    },
     { 
         "file": "ruby.dlc", 
         "title": "Ruby",
