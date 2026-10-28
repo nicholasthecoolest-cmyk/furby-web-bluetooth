@@ -241,6 +241,30 @@ function setAntennaColor(r, g, b) {
     return sendGPCmd([0x14, r, g, b], NO_RESPONSE);
 }
 
+let step = 0;
+const totalSteps = 360; // Increase this number to slow down the rainbow cycle
+
+function runRainbowEffect() {
+  const frequency = (2 * Math.PI) / totalSteps;
+  
+  // Mathematically calculate shifted waves for perfect RGB blending
+  const rr = Math.round(Math.sin(frequency * step + 0) * 127 + 128);
+  const gg = Math.round(Math.sin(frequency * step + (2 * Math.PI / 3)) * 127 + 128);
+  const bb = Math.round(Math.sin(frequency * step + (4 * Math.PI / 3)) * 127 + 128);
+
+  // Output directly into your specific function
+  setAntennaColor(rr,gg,bb);
+
+  // Move to the next color step and loop back to 0 when it hits totalSteps
+  step = (step + 1) % totalSteps;
+
+  // Loops smoothly using the environment's animation clock
+  requestAnimationFrame(runRainbowEffect);
+}
+
+// Start the rainbow loop
+runRainbowEffect();
+
 function cycleDebug() {
     return sendGPCmd([0xdb], NO_RESPONSE);
 }
