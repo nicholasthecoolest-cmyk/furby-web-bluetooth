@@ -262,9 +262,6 @@ function runRainbowEffect() {
   requestAnimationFrame(runRainbowEffect);
 }
 
-// Start the rainbow loop
-runRainbowEffect();
-
 function cycleDebug() {
     return sendGPCmd([0xdb], NO_RESPONSE);
 }
